@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CC18444-2F1F-426B-812B-C3F8395AC54B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Banka_Otomasyon1._1</RootNamespace>
+    <AssemblyName>Banka_Otomasyon1.1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banka_OtomasyonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banka_OtomasyonDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banka_OtomasyonDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAna.Designer.cs">
+      <DependentUpon>FrmAna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBilgi.Designer.cs">
+      <DependentUpon>FrmBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGelirGider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGelirGider.Designer.cs">
+      <DependentUpon>FrmGelirGider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.Designer.cs">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHavale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHavale.Designer.cs">
+      <DependentUpon>FrmHavale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHesapGecmisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHesapGecmisi.Designer.cs">
+      <DependentUpon>FrmHesapGecmisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKayıt.Designer.cs">
+      <DependentUpon>FrmKayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSilGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSilGuncelle.Designer.cs">
+      <DependentUpon>FrmSilGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriEkle.Designer.cs">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParaCekme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParaCekme.Designer.cs">
+      <DependentUpon>ParaCekme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParaYatirma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParaYatirma.Designer.cs">
+      <DependentUpon>ParaYatirma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Veri_TabaniDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Personel_Veri_TabaniDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAna.resx">
+      <DependentUpon>FrmAna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBilgi.resx">
+      <DependentUpon>FrmBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGelirGider.resx">
+      <DependentUpon>FrmGelirGider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHavale.resx">
+      <DependentUpon>FrmHavale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHesapGecmisi.resx">
+      <DependentUpon>FrmHesapGecmisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKayıt.resx">
+      <DependentUpon>FrmKayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSilGuncelle.resx">
+      <DependentUpon>FrmSilGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriEkle.resx">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParaCekme.resx">
+      <DependentUpon>ParaCekme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParaYatirma.resx">
+      <DependentUpon>ParaYatirma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Banka_OtomasyonDataSet.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet.xss">
+      <DependentUpon>Banka_OtomasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet1.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet1.xss">
+      <DependentUpon>Banka_OtomasyonDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet10.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet10.xss">
+      <DependentUpon>Banka_OtomasyonDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet11.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet11.xss">
+      <DependentUpon>Banka_OtomasyonDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet12.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet12.xss">
+      <DependentUpon>Banka_OtomasyonDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet13.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet13.xss">
+      <DependentUpon>Banka_OtomasyonDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet2.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet2.xss">
+      <DependentUpon>Banka_OtomasyonDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet3.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet3.xss">
+      <DependentUpon>Banka_OtomasyonDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet4.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet4.xss">
+      <DependentUpon>Banka_OtomasyonDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet5.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet5.xss">
+      <DependentUpon>Banka_OtomasyonDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet6.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet6.xss">
+      <DependentUpon>Banka_OtomasyonDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet7.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet7.xss">
+      <DependentUpon>Banka_OtomasyonDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet8.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet8.xss">
+      <DependentUpon>Banka_OtomasyonDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet9.xsc">
+      <DependentUpon>Banka_OtomasyonDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Banka_OtomasyonDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banka_OtomasyonDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banka_OtomasyonDataSet9.xss">
+      <DependentUpon>Banka_OtomasyonDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Personel_Veri_TabaniDataSet.xsc">
+      <DependentUpon>Personel_Veri_TabaniDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Personel_Veri_TabaniDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Personel_Veri_TabaniDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Personel_Veri_TabaniDataSet.xss">
+      <DependentUpon>Personel_Veri_TabaniDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banka2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FNBJBHilltopCREvening.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1277143096-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building-5738714__340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
